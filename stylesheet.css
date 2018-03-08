@@ -1,0 +1,40 @@
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+.font {
+  color: #7018CC;
+  font-weight: bold;
+}
+
+#name {
+  height: 50px;
+  font-size: 45px;
+  font-family: 'Ruslan Display', cursive;
+  color: #7018CC;
+}
+
+.homeImage {
+  position: absolute;
+  background-image: url('./images/Home1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.overlay{
+  position: relative;
+  left: 175px;
+  top: 250px;
+  font-size: 20px;
+}
+
+#page2 {
+  
+}
+#page3 {
+
+}
+#page4 {
+
+}
