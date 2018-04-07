@@ -1,5 +1,6 @@
 body {
   font-family: 'Poiret One', cursive;
+  background-color: gray;
 }
 
 .font {
@@ -15,7 +16,6 @@ body {
 }
 
 .homeImage {
-  position: absolute;
   background-image: url('./images/Home1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,18 +23,58 @@ body {
 }
 
 .overlay{
-  position: relative;
-  left: 175px;
-  top: 250px;
+  display:inline-block;
+
+  padding-left: 175px;
+  padding-top: 250px;
   font-size: 20px;
 }
 
-#page2 {
-  
-}
-#page3 {
+#about {
+  height:400px;
+
 
 }
-#page4 {
+#skills{
+  height:600px;
+}
+.container1 {
+  height: 125px;
+  width: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rec_contain {
+  flex-direction: row;
+  height: 100px;
+  width: 1200px;
+
+}
+.square {
+  margin:auto;
+	width: 100px;
+	height: 100px;
+	background: #7018CC;
+  box-shadow: 4px 3px 11px 1px black;
+}
+.rectangle {
+  margin-left: 100px;
+  margin-bottom: 25px;
+	width: 450px;
+	height:75px;
+	background: #7018CC;
+  box-shadow: 4px 3px 11px 1px black;
+}
+
+
+#projects {
+  height:1200px;
+
+
+}
+#contact {
+  height:600px;
+
 
 }

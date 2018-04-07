@@ -10,29 +10,14 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
-  <script defer src="main.js"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-  <script>
-    $('.smooth').on('click', function() {
-      $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-      });
-
-      return false;
-    });
-  </script> -->
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
+  <nav class="navbar fixed-bottom navbar-expand-lg bg-transparent">
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item  font nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
         <a class="nav-item  font nav-link" href="#about">ABOUT ME</a>
-        <a class="nav-item  font nav-link" href="#randomFacts">RANDOM FACTS</a>
         <a class="nav-item  font nav-link" href="#skills">SKILLS</a>
         <a class="nav-item  font nav-link" href="#projects">PROJECTS</a>
         <a class="nav-item  font nav-link" href="#contact">CONTACT</a>
@@ -46,14 +31,42 @@
       <div class='font'>PSYCHOLOGIST TURNED FULL STACK WEB DEVELOPER</div>
     </div>
   </div>
-  <div class='container' id="page2">
-    <a id="about" class="smooth"></a> WAT UP MY BITCHES
+
+  <div class='container-fluid' id="about">
+    <p>This is the About/Random Facts Section</p>
   </div>
-  <div class='container' id="page3">
-    <a id="portfolio" class="smooth"></a> Portfolio page content goes here.
+  <div class='container-fluid' id="skills">
+    <div> Web Development Skills </div>
+    <div class='container1'>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
   </div>
-  <div class='container' id="page4">
-    <a id="contact" class="smooth"></a> Contact page content goes here.
+  <div class='container-fluid' id="projects">
+    <div> Projects </div>
+    <div class='container-fluid rec_contain'>
+      <div class="row">
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="row">
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="row">
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+      </div>
+    </div>
+  </div>
+  <div class='container-fluid' id="contact">
+    <div> Contact Me </div>
   </div>
 
 
