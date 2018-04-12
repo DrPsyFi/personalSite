@@ -29,11 +29,13 @@ body {
   padding-top: 250px;
   font-size: 20px;
 }
-
+.headline {
+  text-align: center;
+  color: #7018CC;
+  font-weight: bold;
+}
 #about {
   height:400px;
-
-
 }
 #skills{
   height:600px;
@@ -53,10 +55,18 @@ body {
 }
 .square {
   margin:auto;
-	width: 100px;
-	height: 100px;
+	width: 180px;
+	height: 180px;
 	background: #7018CC;
   box-shadow: 4px 3px 11px 1px black;
+}
+#skill {
+  margin: 15px
+}
+
+.row {
+  height: 200px
+
 }
 .rectangle {
   margin-left: 100px;
