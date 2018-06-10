@@ -2,7 +2,6 @@ body {
   font-family: 'Poiret One', cursive;
   background-color: gray;
 }
-
 .font {
   color: #7018CC;
   font-weight: bold;
@@ -25,7 +24,7 @@ body {
 .overlay{
   display:inline-block;
 
-  padding-left: 175px;
+  padding-left: 250px;
   padding-top: 250px;
   font-size: 20px;
 }
@@ -35,10 +34,10 @@ body {
   font-weight: bold;
 }
 #about {
-  height:400px;
+  height:800px;
 }
 #skills{
-  height:600px;
+  height:800px;
 }
 .container1 {
   height: 125px;
@@ -65,26 +64,36 @@ body {
 }
 
 .row {
-  height: 200px
+  height: 200px;
+  margin: 25px;
 
 }
 .rectangle {
+  color: white;
+  font-size: 55px;
+  align-content: space-around;
+  text-align: center;
   margin-left: 100px;
   margin-bottom: 25px;
-	width: 450px;
+	width: 550px;
 	height:75px;
 	background: #7018CC;
   box-shadow: 4px 3px 11px 1px black;
 }
 
+a{
+  color: gray;
+  font-weight: bold;
+}
+
+li{
+  font-size:30px;
+}
 
 #projects {
-  height:1200px;
-
-
+  height:700px;
 }
 #contact {
   height:600px;
-
 
 }
