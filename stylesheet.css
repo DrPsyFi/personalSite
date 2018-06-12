@@ -37,7 +37,7 @@ body {
   height:800px;
 }
 #skills{
-  height:800px;
+  height:600px;
 }
 .container1 {
   height: 125px;
@@ -63,11 +63,7 @@ body {
   margin: 15px
 }
 
-.row {
-  height: 200px;
-  margin: 25px;
 
-}
 .rectangle {
   color: white;
   font-size: 55px;
@@ -85,15 +81,25 @@ a{
   color: gray;
   font-weight: bold;
 }
+h1 {
+  font-weight: bolder;
+}
 
 li{
   font-size:30px;
 }
 
+#linked {
+  color: black
+  font-size: 40px;
+}
+#git {
+  color: black;
+  font-size: 40px;
+}
 #projects {
-  height:700px;
+  height:400px;
 }
 #contact {
   height:600px;
-
 }
